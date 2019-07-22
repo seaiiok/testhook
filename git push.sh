@@ -15,7 +15,7 @@ comments="administrator"
 fi
 echo $comments
 git commit -m $comments
-git push origin master
+
 
 
 
