@@ -12,7 +12,7 @@ read comments
 # if comments=="" then
 # comments="administrator"
 # fi
-git commit -m comments
+git commit -m $comments
 git push origin master
 sleep 1
 
