@@ -14,9 +14,10 @@ then
 comments="administrator"
 fi
 echo $comments
-ret=$(git commit -m $comments)
-echo $ret
+git commit -m $comments
 git push origin master
-sleep 10
+
+
+
 
 
